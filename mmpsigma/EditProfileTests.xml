@@ -9,4 +9,4 @@
       <class name="org.iit.healthcare.mmpsigma.ScheduleAppointmentTests_MD_DP"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- Suite -->
+</suite> 
