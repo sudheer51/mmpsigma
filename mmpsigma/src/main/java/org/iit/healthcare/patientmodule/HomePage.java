@@ -6,6 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class HomePage {
+	/**
+	 * HomePage for navigation
+	 */
 	HashMap<String,String> actualHMap = new HashMap<String,String>();
 	private By symXpath = By.xpath("//table[@class='table']/tbody/tr[1]/td[3]");
 	private By dateXpath = By.xpath("//table[@class='table']/tbody/tr[1]/td[1]");
