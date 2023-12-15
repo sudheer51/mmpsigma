@@ -33,6 +33,11 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>5.6.2</version>
 		</dependency>
+		<dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-devtools-v113</artifactId>
+            <version>4.9.1</version>
+        </dependency>
 	</dependencies>
 	<build>
 		<plugins>

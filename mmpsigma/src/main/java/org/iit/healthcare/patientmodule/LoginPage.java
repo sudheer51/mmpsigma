@@ -2,6 +2,7 @@ package org.iit.healthcare.patientmodule;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -26,12 +27,13 @@ public class LoginPage {
 	public LoginPage(WebDriver driver)
 	{
 		this.driver = driver;
-		PageFactory.initElements( driver,LoginPage.class);
+		PageFactory.initElements(driver,this);
 	}
 	
 	public void login(String username,String password)
 	{
-		unameField.sendKeys(username);
+		//driver.findElement(By.id("username")).sendKeys(username);
+	 	unameField.sendKeys(username);
 		passwordField.sendKeys(password);
 		submitButton.get(0).click();
 	}

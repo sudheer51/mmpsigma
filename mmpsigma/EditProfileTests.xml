@@ -5,8 +5,6 @@
   <parameter name="username" value="ria1" />
   <parameter name="password" value="Ria12345" />
   <parameter name="doctorName" value="Charlie" />
-  
-  
     <classes>
       <class name="org.iit.healthcare.mmpsigma.ScheduleAppointmentTests_MD_DP"/>
     </classes>

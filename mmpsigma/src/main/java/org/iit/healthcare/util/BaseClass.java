@@ -26,6 +26,7 @@ public class BaseClass {
 		System.out.println("in intantiateDriver "+ prop.getProperty("browserType"));
 		if(prop.getProperty("browserType").equals("chrome"))
 		{
+			
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
